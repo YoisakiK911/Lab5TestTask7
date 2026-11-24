@@ -9,6 +9,9 @@ bool check(int x) {
         return 1;
     }
 }
+
+//void function//
+
 void printBits(unsigned short int bits) {
     for (int i = 15; i >= 0; i--) {
         unsigned int mask = 1u << i;
@@ -52,6 +55,8 @@ int main() {
 
         cyclic = static_cast<unsigned short int>((u >> k) | (u << (16 - k)));
     }
+
+    //main functions//
 
     printBits(u);
     printBits(logic);
