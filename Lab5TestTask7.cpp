@@ -49,7 +49,7 @@ int main() {
     printBits(logic);
     printBits(arith);
     printBits(cyclic);
-    cout << 'this is end' << endl;
+    cout << "this is end" << endl;
 
     return 0;
 }
